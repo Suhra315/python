@@ -1,0 +1,6 @@
+name = input("What is your name? ")
+age = input("How old are you? ")
+hobby = input("What is your favorite hobby? ")
+name = name.title()
+hobby = hobby.upper()
+print(f"Hi there! I'm {name}, a {age}-year-old who loves {hobby}. Nice to meet you!")
